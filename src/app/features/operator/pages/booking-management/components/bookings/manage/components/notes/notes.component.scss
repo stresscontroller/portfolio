@@ -1,0 +1,12 @@
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    h2 {
+        margin: 0;
+    }
+}
+
+::ng-deep .p-inputtextarea {
+    height: 10rem;
+}

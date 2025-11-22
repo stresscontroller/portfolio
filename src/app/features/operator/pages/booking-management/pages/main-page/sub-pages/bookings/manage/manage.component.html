@@ -1,0 +1,25 @@
+<app-booking-manage
+    [updatePermission]="{features: [{
+    feature: features.bookingManagement.name,
+    page: features.bookingManagement.pages
+        .bookingEdit.name,
+    pageFeature: [
+        features.bookingManagement.pages
+            .bookingEdit.features
+            .bookingUpdate.name
+    ],
+    pageFeatureCheck: 'and',
+}], mode: 'disabled',}"
+    [deletePermission]="{features: [{
+    feature: features.bookingManagement.name,
+    page: features.bookingManagement.pages
+        .bookingEdit.name,
+    pageFeature: [
+        features.bookingManagement.pages
+            .bookingEdit.features
+            .bookingDelete.name
+    ],
+    pageFeatureCheck: 'and',
+}], mode: 'none',}"
+    [reservationBookingId]="reservationBookingId$ | async"
+></app-booking-manage>

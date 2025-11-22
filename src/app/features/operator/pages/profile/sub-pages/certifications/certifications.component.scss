@@ -1,0 +1,14 @@
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .section-container {
+        .top-section {
+            position: relative;
+            display: flex;
+            button {
+                margin-left: 20px;
+            }
+        }
+    }
+}
