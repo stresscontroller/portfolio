@@ -2,10 +2,9 @@
   "data": [
     {
       "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/LetsTryForDream/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "name": "km-aanbouw-website",
+      "url": "https://github.com/stresscontroller/km-aanbouw-website",
+      "description": "Construction company portfolio website with modern UI and service presentation",
       "isFork": false,
       "languages": [
         {
@@ -24,10 +23,9 @@
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/LetsTryForDream/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "name": "finance-analytics-module",
+      "url": "https://github.com/stresscontroller/finance-analytics-module",
+      "description": "Financial analytics module for portfolio tracking, performance metrics, and data visualization",
       "isFork": false,
       "languages": [
         {
@@ -38,10 +36,9 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/LetsTryForDream/portfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "name": "non-profit-website",
+      "url": "https://github.com/stresscontroller/non-profit-website",
+      "description": "Non-profit organization website for donations, programs, and community outreach",
       "isFork": false,
       "languages": [
         {
@@ -64,10 +61,9 @@
     },
     {
       "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/LetsTryForDream/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "name": "workoutfoods.com",
+      "url": "https://github.com/stresscontroller/workoutfoods",
+      "description": "Shopify-based e-commerce store with product catalog, checkout, and payment integration",
       "isFork": false,
       "languages": [
         {
@@ -90,10 +86,9 @@
     },
     {
       "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/LetsTryForDream/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "name": "FCA Help Center",
+      "url": "https://github.com/stresscontroller/fca-public-help-center",
+      "description": "Help center website for FCA with documentation, FAQs, and support request system",
       "isFork": false,
       "languages": [
         {
@@ -104,10 +99,9 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/LetsTryForDream/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "name": "ai-avatar-interaction",
+      "url": "https://github.com/stresscontroller/ai-avatar-interaction",
+      "description": "AI-powered avatar interaction platform for real-time voice and chat communication",
       "isFork": false,
       "languages": [
         {

@@ -25,9 +25,9 @@ const greeting = {
   subTitle:
     "Hi, I’m a Senior Full-Stack Developer passionate about building clean, scalable, and user-friendly digital products. I enjoy solving challenging problems and turning ideas into reliable web platforms, mobile apps, and automation tools that people genuinely enjoy using.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/LetsTryForDream/portfolio",
-  githubProfile: "https://github.com/LetsTryForDream",
+    "https://drive.google.com/file/d/1PAgj8Nge9R7z6VF7XhLehmE309uJ_vss/view?usp=sharing",
+  portfolio_repository: "https://github.com/stresscontroller/portfolio",
+  githubProfile: "https://github.com/stresscontroller",
 };
 
 const socialMediaLinks = [
@@ -37,18 +37,18 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
-  {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/daniel-671927/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  // {
+  //   name: "LinkedIn",
+  //   link: "https://www.linkedin.com/in/daniel-671927/",
+  //   fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+  //   backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+  // },
+  // {
+  //   name: "YouTube",
+  //   link: "https://youtube.com/c/DevSense19",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
   {
     name: "Gmail",
     link: "mailto:talentdev.dj@gmail.com",
@@ -57,22 +57,28 @@ const socialMediaLinks = [
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
+    link: "https://t.me/daniel3619",
+    fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+    backgroundColor: "#279fda", // Reference https://simpleicons.org/?q=x
   },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "X-Twitter",
+  //   link: "https://twitter.com/ashutosh_1919",
+  //   fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+  //   backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
+  // },
+  // {
+  //   name: "Facebook",
+  //   link: "https://www.facebook.com/laymanbrother.19/",
+  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  // },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/layman_brother/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
@@ -381,7 +387,6 @@ const degrees = {
         "⚡ Along with academic coursework, I developed practical skills in full-stack development, cloud computing, and modern web technologies, applying them through various academic and personal projects",
         "⚡ During my studies, I actively worked on programming projects and collaborative assignments that helped me strengthen my problem-solving abilities, software architecture understanding, and real-world development skills.",
       ],
-      website_link: "http://iiitk.ac.in",
     },
   ],
 };
@@ -399,48 +404,34 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "Senior Full-Stack Developer",
+          company: "SEO Global",
+          logo_path: "seoglobal_logo.png",
+          duration: "Feb 2023 - Present",
+          location: "Dover, DE, US",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "Led the development of scalable SaaS platforms by designing full-stack architectures, building secure APIs, optimizing PostgreSQL databases, and managing cloud deployments using modern technologies like Next.js, Node.js/Django, and Docker.",
           color: "#000000",
         },
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Full-Stack Developer",
+          company: "DevOrion",
+          logo_path: "devorion_logo.png",
+          duration: "Oct 2019 - Jan 2023",
+          location: "San Jose, CA, US",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Developed full-stack SaaS and business applications using Angular, .NET, and MongoDB, while implementing secure REST APIs, Stripe payment integrations, and automation tools to streamline business workflows.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Web Developer",
+          company: "ScienceSoft",
+          logo_path: "sciencesoft_logo.png",
+          duration: "May 2017 - Sept 2019",
+          location: "Mckinney, TX, US",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "Built responsive web applications and mobile apps using modern JavaScript technologies, while developing backend services, integrating CMS systems, and supporting deployment and system modernization for client platforms.",
           color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
         },
       ],
     },
@@ -453,38 +444,6 @@ const projectsHeader = {
   description:
     "My projects make use of a wide range of modern technologies and development tools. I have strong experience building full-stack web platforms, mobile applications, and automation systems, and deploying them to scalable cloud infrastructure to ensure reliability and performance.",
   avatar_image_path: "projects_image.svg",
-};
-
-const publicationsHeader = {
-  title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
-  avatar_image_path: "projects_image.svg",
-};
-
-const publications = {
-  data: [
-    {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
-    },
-  ],
 };
 
 // Contact Page
@@ -504,14 +463,14 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
+    subtitle: "8 The Green, Suite B, Dover, Delaware, US 19901",
+    locality: "Dover",
     country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    region: "Delaware",
+    postalCode: "19901",
+    streetAddress: "8 The Green, Suite B",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://www.google.com/maps/place/8+The+Green+Suite+B,+Dover,+DE+19910,+USA/@39.1558761,-75.5270836,17z/data=!3m2!4b1!5s0x89c764aba877ecef:0x43c53f8c9e24d8ff!4m6!3m5!1s0x89c764aa7c38b56d:0x1c6368e17a8edc56!8m2!3d39.155872!4d-75.5245087!16s%2Fg%2F11yrgmdtj5?entry=ttu&g_ep=EgoyMDI2MDMwNS4wIKXMDSoASAFQAw%3D%3D",
   },
   phoneSection: {
     title: "",
@@ -529,7 +488,5 @@ export {
   degrees,
   experience,
   projectsHeader,
-  publicationsHeader,
-  publications,
   contactPageData,
 };
