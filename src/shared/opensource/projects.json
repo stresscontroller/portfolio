@@ -8,16 +8,16 @@
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "Tailwind CSS",
+          "iconifyClass": "simple-icons:tailwindcss"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "TypeScript",
+          "iconifyClass": "simple-icons:typescript"
         },
         {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
+          "name": "Next.js",
+          "iconifyClass": "simple-icons:react"
         }
       ]
     },
@@ -30,7 +30,19 @@
       "languages": [
         {
           "name": "Python",
-          "iconifyClass": "logos-python"
+          "iconifyClass": "simple-icons:python"
+        },
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "Linux",
+          "iconifyClass": "simple-icons:linux"
+        },
+        {
+          "name": "Telegram Bot",
+          "iconifyClass": "simple-icons:telegram"
         }
       ]
     },
@@ -42,20 +54,20 @@
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "HTML 5",
+          "iconifyClass": "simple-icons:html5"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "CSS 3",
+          "iconifyClass": "simple-icons:css3"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "TypeScript",
+          "iconifyClass": "simple-icons:typescript"
         },
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "Next.js",
+          "iconifyClass": "simple-icons:react"
         }
       ]
     },
@@ -67,20 +79,12 @@
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Shopify",
+          "iconifyClass": "simple-icons:shopify"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Next.js",
+          "iconifyClass": "simple-icons:react"
         }
       ]
     },
@@ -92,8 +96,12 @@
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "TypeScript",
+          "iconifyClass": "simple-icons:typescript"
+        },
+        {
+          "name": "Next.js",
+          "iconifyClass": "simple-icons:react"
         }
       ]
     },
@@ -105,12 +113,16 @@
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "OpenAI",
+          "iconifyClass": "simple-icons:openai"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "TypeScript",
+          "iconifyClass": "simple-icons:typescript"
+        },
+        {
+          "name": "Next.js",
+          "iconifyClass": "simple-icons:react"
         }
       ]
     }
