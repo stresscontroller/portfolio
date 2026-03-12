@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Daniel Jin Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://danieljin.info/",
   },
 };
 
@@ -37,18 +37,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
-  // {
-  //   name: "LinkedIn",
-  //   link: "https://www.linkedin.com/in/daniel-671927/",
-  //   fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-  //   backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  // },
-  // {
-  //   name: "YouTube",
-  //   link: "https://youtube.com/c/DevSense19",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/daniel-jin-5b15843b6/",
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+  },
   {
     name: "Gmail",
     link: "mailto:talentdev.dj@gmail.com",
@@ -56,29 +50,17 @@ const socialMediaLinks = [
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "X-Twitter",
+    name: "Telegram",
     link: "https://t.me/daniel3619",
     fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#279fda", // Reference https://simpleicons.org/?q=x
   },
-  // {
-  //   name: "X-Twitter",
-  //   link: "https://twitter.com/ashutosh_1919",
-  //   fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-  //   backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  // },
-  // {
-  //   name: "Facebook",
-  //   link: "https://www.facebook.com/laymanbrother.19/",
-  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  // },
-  // {
-  //   name: "Instagram",
-  //   link: "https://www.instagram.com/layman_brother/",
-  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  // },
+  {
+    name: "Medium",
+    link: "https://medium.com/@talentdev.dj",
+    fontAwesomeIcon: "fa-medium", // Reference https://fontawesome.com/icons/medium?f=brands&s=solid
+    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=medium
+  },
 ];
 
 const skills = {
@@ -87,7 +69,7 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        "⚡ Developing highly scalable production ready models for various deep learning and statistical use cases",
         "⚡ Experience of working with Computer Vision and NLP projects",
         "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
@@ -116,15 +98,19 @@ const skills = {
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "Deep Learning",
+          fontAwesomeClassname: "simple-icons:deepl",
+          style: {
+            backgroundColor: "transparent",
+            color: "#000000",
+          },
         },
       ],
     },
@@ -132,25 +118,12 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive website front end using Next.js, Angular, Tailwind, etc.",
+        "⚡ Developing application backend in NodeJS, Django, Laravel, .NET, etc.",
+        "⚡ Using PostgreSQL, MongoDB, MySQL, etc as database systems",
+        "⚡ Creating content management systems using WordPress, Shopify, Drupal, etc.",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
         {
           skillName: "Sass",
           fontAwesomeClassname: "simple-icons:sass",
@@ -159,18 +132,45 @@ const skills = {
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
+          skillName: "React",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            color: "#DD0031",
+          },
+        },
+        {
+          skillName: "Vue.js",
+          fontAwesomeClassname: "simple-icons:vuedotjs",
+          style: {
+            color: "#4FC08D",
+          },
+        },
+        {
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: {
+            color: "#092E20",
+          },
+        },
+        {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
+          style: {
+            color: "#009688",
           },
         },
         {
@@ -181,45 +181,136 @@ const skills = {
           },
         },
         {
+          skillName: "NestJS",
+          fontAwesomeClassname: "simple-icons:nestjs",
+          style: {
+            color: "#E0234E",
+          },
+        },
+        {
+          skillName: "Laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
+          style: {
+            color: "#FF2D20",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4479A1",
+          },
+        },
+        {
+          skillName: "Shopify",
+          fontAwesomeClassname: "simple-icons:shopify",
+          style: {
+            color: "#96BE3E",
+          },
+        },
+        {
+          skillName: "WordPress",
+          fontAwesomeClassname: "simple-icons:wordpress",
+          style: {
+            color: "#21759B",
+          },
+        },
+        {
+          skillName: "Stripe",
+          fontAwesomeClassname: "simple-icons:stripe",
+          style: {
+            color: "#008CD8",
+          },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
+          style: {
+            color: "#764ABC",
+          },
+        },
+        {
+          skillName: "OAuth",
+          fontAwesomeClassname: "simple-icons:auth0",
+          style: {
+            color: "#F8BB27",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+          style: {
+            color: "#DC382D",
+          },
+        },
+        {
+          skillName: "ORM",
+          fontAwesomeClassname: "simple-icons:typeorm",
+          style: {
+            color: "#E0234E",
+          },
+        },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: {
+            color: "#092E20",
+          },
+        },
+        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "DevOps & Cloud Infra",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Setting up CI/CD pipelines using Jenkins, GitHub Actions, etc.",
       ],
       softwareSkills: [
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            color: "#181717",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "NGINX",
+          fontAwesomeClassname: "simple-icons:nginx",
+          style: {
+            color: "#269539",
+          },
+        },
         {
           skillName: "GCP",
           fontAwesomeClassname: "simple-icons:googlecloud",
@@ -248,20 +339,7 @@ const skills = {
             color: "#FFCA28",
           },
         },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
+
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
@@ -269,50 +347,57 @@ const skills = {
             color: "#1488C6",
           },
         },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
       ],
     },
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "Blockchain & Web3",
+      fileName: "BlockchainImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Building and deploying blockchain smart contracts using Solidity",
+        "⚡ Developing decentralized applications (DApps) using React and Next.js",
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Blockchain",
+          fontAwesomeClassname: "simple-icons:blockchaindotcom",
           style: {
-            color: "#FF2BC2",
+            color: "#121D33",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Bitcoin",
+          fontAwesomeClassname: "simple-icons:bitcoin",
           style: {
-            color: "#F24E1E",
+            color: "#F7931A",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Ethereum",
+          fontAwesomeClassname: "simple-icons:ethereum",
           style: {
-            color: "#FF7C00",
+            color: "#3C3C3D",
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "Web3",
+          fontAwesomeClassname: "simple-icons:web3dotjs",
           style: {
-            color: "#000000",
+            color: "#F16822",
+          },
+        },
+        {
+          skillName: "Solidity",
+          fontAwesomeClassname: "simple-icons:solidity",
+          style: {
+            color: "#363636",
+          },
+        },
+        {
+          skillName: "Hardhat",
+          fontAwesomeClassname: "simple-icons:opensourcehardware",
+          style: {
+            color: "#0099B0",
           },
         },
       ],
@@ -452,13 +537,13 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Please feel free to message me, and I will respond within 24 hours. I’d be glad to help.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
       "I like to document some of my experiences from my professional career journey, as well as share technical knowledge.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://blogs.danieljin.info/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
